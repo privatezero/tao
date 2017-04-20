@@ -1,8 +1,8 @@
 
-document.getElementById("TaoButton").addEventListener("click", myFunction);
+document.getElementById("TaoButton").addEventListener("click", taoOut);
 var tao = Array(
 'THE Tao which can be expressed in words is not the eternal Tao; the name which can be uttered is not its eternal name. Without a name\, it is the Beginning of Heaven and Earth; with a name, it is the Mother of all things. Only one who is eternally free from earthly passions can apprehend its spiritual essence; he who is ever clogged by passions can see no more than its outer form. These two things, the spiritual and the material, though we call them by different names, in their origin are one and the same. This sameness is a mystery,--the mystery of mysteries. It is the gate of all spirituality.',
-'How unfathomable is Tao! It seems to be the ancestral progenitor of all things. How pure and clear is Tao! It would seem to be everlasting. I know not of whom it is the offspring. It appears to have been anterior to any Sovereign Power.[1]',
+'How unfathomable is Tao! It seems to be the ancestral progenitor of all things. How pure and clear is Tao! It would seem to be everlasting. I know not of whom it is the offspring. It appears to have been anterior to any Sovereign Power.',
 'Tao eludes the sense of sight\, and is therefore called colourless. It eludes the sense of hearing, and is therefore called soundless. It eludes the sense of touch, and is therefore called incorporeal. These three qualities cannot be apprehended, and hence they may be blended into unity.',
 'Its upper part is not bright\, and its lower part is not obscure. Ceaseless in action, it cannot be named, but returns again to nothingness. We may call it the form of the formless, the image of the imageless, the fleeting and the indeterminable. Would you go before it, you cannot see its face; would you go behind it, you cannot see its back.',
 'The mightiest manifestations of active force flow solely from Tao.',
@@ -34,7 +34,7 @@ var tao = Array(
 'All things alike do their work\, and then we see them subside. When they have reached their bloom, each returns to its origin. Returning to their origin means rest or fulfilment of destiny. This reversion is an eternal law. To know that law is to be enlightened. Not to know it, is misery and calamity. He who knows the eternal law is liberal-minded. Being liberal-minded, he is just. Being just, he is kingly. Being kingly, he is akin to Heaven. Being akin to Heaven, he possesses Tao. Possessed of Tao, he endures for ever. Though his body perish, yet he suffers no harm.',
 'He who acts in accordance with Tao\, becomes one with Tao. He who treads the path of Virtue becomes one with Virtue. He who pursues a course of Vice becomes one with Vice. The man who is one with Tao, Tao is also glad to receive. The man who is one with Virtue, Virtue is also glad to receive. The man who is one with Vice, Vice is also glad to receive.',
 'He who is self-approving does not shine. He who boasts has no merit. He who exalts himself does not rise high. Judged according to Tao\, he is like remnants of food or a tumour on the body--an object of universal disgust. Therefore one who has Tao will not consort with such.',
-'Perfect Virtue acquires nothing; therefore it obtains everything. Perfect Virtue does nothing\, yet there is nothing which it does not effect. Perfect Charity operates without the need of anything to evoke it. Perfect Duty to one\'s neighbour operates, but always needs to be evoked. Perfect Ceremony operates, and calls for no outward response; nevertheless it induces respect.[1]',
+'Perfect Virtue acquires nothing; therefore it obtains everything. Perfect Virtue does nothing\, yet there is nothing which it does not effect. Perfect Charity operates without the need of anything to evoke it. Perfect Duty to one\'s neighbour operates, but always needs to be evoked. Perfect Ceremony operates, and calls for no outward response; nevertheless it induces respect.',
 'Ceremonies are the outward expression of inward feelings.',
 'If Tao perishes\, then Virtue will perish; if Virtue perishes, then Charity will perish; if Charity perishes, then Duty to one\'s neighbour will perish; if Duty to one\'s neighbour perishes, then Ceremonies will perish.',
 'Ceremonies are but the veneer of loyalty and good faith\, while oft-times the source of disorder. Knowledge of externals is but a showy ornament of Tao, while oft-times the beginning of imbecility.',
@@ -56,7 +56,7 @@ var tao = Array(
 'All the world says that my Tao is great\, but unlike other teaching. It is just because it is great that it appears unlike other teaching. If it had this likeness, long ago would its smallness have been known.',
 'The skilful philosophers of the olden time were subtle\, spiritual, profound, and penetrating. They were so deep as to be incomprehensible. Because they are hard to comprehend, I will endeavour to describe them.',
 'Shrinking were they\, like one fording a stream in winter. Cautious were they, like one who fears an attack from any quarter. Circumspect were they, like a stranger guest; self-effacing, like ice about to melt; simple, like unpolished wood; vacant, like a valley; opaque, like muddy water.',
-'When terms are made after a great quarrel\, a certain ill-feeling is bound to be left behind. How can this be made good? Therefore, having entered into an agreement, the Sage adheres to his obligations,[2] but does not exact fulfilment from others. The man who has Virtue attends to the spirit of the compact; the man without Virtue attends only to his claims.',
+'When terms are made after a great quarrel\, a certain ill-feeling is bound to be left behind. How can this be made good? Therefore, having entered into an agreement, the Sage adheres to his obligations, but does not exact fulfilment from others. The man who has Virtue attends to the spirit of the compact; the man without Virtue attends only to his claims.',
 'He who tries to govern a kingdom by his sagacity is of that kingdom the despoiler; but he who does not govern by sagacity is the kingdom\'s blessing. He who understands these two sayings may be regarded as a pattern and a model. To keep this principle constantly before one\'s eyes is called Profound Virtue. Profound Virtue is unfathomable\, far-reaching, paradoxical at first, but afterwards exhibiting thorough conformity with Nature.',
 'THE Sage occupies himself with inaction\, and conveys instruction without words. Is it not by neglecting self-interest that one will be able to achieve it?',
 'Purge yourself of your profound intelligence\, and you can still be free from blemish. Cherish the people and order the kingdom, and you can still do without meddlesome action.',
@@ -108,7 +108,7 @@ var tao = Array(
 'As restrictions and prohibitions are multiplied in the Empire\, the people grow poorer and poorer. When the people are subjected to overmuch government, the land is thrown into confusion. When the people are skilled in many cunning arts, strange are the objects of luxury that appear.',
 'The greater the number of laws and enactments\, the more thieves and robbers there will be. Therefore the Sage says: "So long as I do nothing, the people will work out their own reformation. So long as I love calm, the people will right themselves. If only I keep from meddling, the people will grow rich. If only I am free from desire, the people will come naturally back to simplicity."',
 'If the government is sluggish and tolerant\, the people will be honest and free from guile. If the government is prying and meddling, there will be constant infraction of the law. Is the government corrupt? Then uprightness becomes rare, and goodness becomes strange. Verily, mankind have been under delusion for many a day!',
-'Govern a great nation as you would cook a small fish.[1]',
+'Govern a great nation as you would cook a small fish.',
 'If the Empire is governed according to Tao\, disembodied spirits will not manifest supernatural powers. It is not that they lack supernatural power, but they will not use it to hurt mankind. Again, it is not that they are unable to hurt mankind, but they see that the Sage also does not hurt mankind. If then neither Sage nor spirits work harm, their virtue converges to one beneficent end.',
 'In ancient times those who knew how to practise Tao did not use it to enlighten the people\, but rather to keep them ignorant. The difficulty of governing the people arises from their having too much knowledge.',
 'If the people do not fear the majesty of government\, a reign of terror will ensue.',
@@ -117,15 +117,15 @@ var tao = Array(
 'Now\, there is always one who presides over the infliction of death. He who would take the place of the magistrate and himself inflict death, is like one who should try to do the work of a master-carpenter. And of those who try the work of a master-carpenter there are few who do not cut their own hands.',
 'The people starve because those in authority over them devour too many taxes; that is why they starve. The people are difficult to govern because those placed over them are meddlesome; that is why they are difficult to govern. The people despise death because of their excessive labour in seeking the means of life; that is why they despise death.',
 'A Sage has said: "He who can take upon himself the nation\'s shame is fit to be lord of the land. He who can take upon himself the nation\'s calamities is fit to be ruler over the Empire."',
-'Were I ruler of a little State with a small population\, and only ten or a hundred men available as soldiers, I would not use them. I would have the people look on death as a grievous thing, and they should not travel to distant countries. Though they might possess boats and carriages, they should have no occasion to ride in them. Though they might own weapons and armour, they should have no need to use them. I would make the people return to the use of knotted cords.[2] They should find their plain food sweet, their rough garments fine. They should be content with their homes, and happy in their simple ways. If a neighbouring State was within sight of mine--nay, if we were close enough to hear the crowing of each other\'s cocks and the barking of each other\'s dogs--the two peoples should grow old and die without there ever having been any mutual intercourse.',
+'Were I ruler of a little State with a small population\, and only ten or a hundred men available as soldiers, I would not use them. I would have the people look on death as a grievous thing, and they should not travel to distant countries. Though they might possess boats and carriages, they should have no occasion to ride in them. Though they might own weapons and armour, they should have no need to use them. I would make the people return to the use of knotted cords. They should find their plain food sweet, their rough garments fine. They should be content with their homes, and happy in their simple ways. If a neighbouring State was within sight of mine--nay, if we were close enough to hear the crowing of each other\'s cocks and the barking of each other\'s dogs--the two peoples should grow old and die without there ever having been any mutual intercourse.',
 'HE WHO serves a ruler of men in harmony with Tao will not subdue the Empire by force of arms. Such a course is wont to bring retribution in its train.',
 'Where troops have been quartered\, brambles and thorns spring up. In the track of great armies there must follow lean years.',
 'The good man wins a victory and then stops; he will not go on to acts of violence. Winning\, he boasteth not; he will not triumph; he shows no arrogance. He wins because he cannot choose; after his victory he will not be overbearing.',
 'Weapons\, however beautiful, are instruments of ill omen, hateful to all creatures. Therefore he who has Tao will have nothing to do with them.',
 'Where the princely man abides\, the weak left hand is in honour. But he who uses weapons honours the stronger right. Weapons are instruments of ill omen; they are not the instruments of the princely man, who uses them only when he needs must. Peace and tranquillity are what he prizes. When he conquers, he is not elate. To be elate were to rejoice in the slaughter of human beings. And he who rejoices in the slaughter of human beings is not fit to work his will in the Empire.',
 'On happy occasions\, the left is favoured; on sad occasions, the right. The second in command has his place on the left, the general in chief on the right. That is to say, they are placed in the order observed at funeral rites. And, indeed, he who has exterminated a great multitude of men should bewail them with tears and lamentation. It is well that those who are victorious in battle should be placed in the order of funeral rites.',
-'A certain military commander used to say: "I dare not act the host; I prefer to play the guest.[1] I dare not advance an inch; I prefer to retreat a foot."',
-'There is no greater calamity than lightly engaging in war. Lightly to engage in war is to risk the loss of our treasure.[2]',
+'A certain military commander used to say: "I dare not act the host; I prefer to play the guest. I dare not advance an inch; I prefer to retreat a foot."',
+'There is no greater calamity than lightly engaging in war. Lightly to engage in war is to risk the loss of our treasure.',
 'When opposing warriors join in battle\, he who has pity conquers.',
 'AMONG mankind\, the recognition of beauty as such implies the idea of ugliness, and the recognition of good implies the idea of evil. There is the same mutual relation between existence and non-existence in the matter of creation; between difficulty and ease in the matter of accomplishing; between long and short in the matter of form; between high and low in the matter of elevation; between treble and bass in the matter of musical pitch; between before and after in the matter of priority.',
 'Nature is not benevolent; with ruthless indifference she makes all things serve their purposes\, like the straw dogs we use at sacrifices. The Sage is not benevolent: he utilises the people with the like inexorability.',
@@ -170,7 +170,7 @@ var tao = Array(
 'The skilful traveller leaves no tracks; the skilful speaker makes no blunders; the skilful reckoner uses no tallies. He who knows how to shut uses no bolts--yet you cannot open. He who knows how to bind uses no cords--yet you cannot undo.',
 'Among men\, reject none; among things, reject nothing. This is called comprehensive intelligence.',
 'The good man is the bad man\'s teacher; the bad man is the material upon which the good man works. If the one does not value his teacher\, if the other does not love his material, then despite their sagacity they must go far astray. This is a mystery of great import.',
-'As unwrought material is divided up and made into serviceable vessels\, so the Sage turns his simplicity[1] to account, and thereby becomes the ruler of rulers.',
+'As unwrought material is divided up and made into serviceable vessels\, so the Sage turns his simplicity to account, and thereby becomes the ruler of rulers.',
 'The course of things is such that what was in front is now behind; what was hot is now cold; what was strong is now weak; what was complete is now in ruin. Therefore the Sage avoids excess\, extravagance, and grandeur.',
 'Which is nearer to you\, fame or life? Which is more to you, life or wealth? Which is the greater malady, gain or loss?',
 'Excessive ambitions necessarily entail great sacrifice. Much hoarding must be followed by heavy loss. He who knows when he has enough will not be put to shame. He who knows when to stop will not come to harm. Such a man can look forward to long life.',
@@ -180,7 +180,7 @@ var tao = Array(
 'I have heard that he who possesses the secret of life\, when travelling abroad, will not flee from rhinoceros or tiger; when entering a hostile camp, he will not equip himself with sword or buckler. The rhinoceros finds in him no place to insert its horn; the tiger has nowhere to fasten its claw; the soldier has nowhere to thrust his blade. And why? Because he has no spot where death can enter.',
 'To see small beginnings is clearness of sight. To rest in weakness is strength.',
 'He who knows how to plant\, shall not have his plant uprooted; he who knows how to hold a thing, shall not have it taken away. Sons and grandsons will worship at his shrine, which shall endure from generation to generation.',
-'Knowledge in harmony is called constant. Constant knowledge is called wisdom.[2] Increase of life is called felicity. The mind directing the body is called strength.',
+'Knowledge in harmony is called constant. Constant knowledge is called wisdom. Increase of life is called felicity. The mind directing the body is called strength.',
 'Be square without being angular. Be honest without being mean. Be upright without being punctilious. Be brilliant without being showy.',
 'Good words shall gain you honour in the market-place\, but good deeds shall gain you friends among men.',
 'To the good I would be good; to the not-good I would also be good\, in order to make them good.',
@@ -192,7 +192,7 @@ var tao = Array(
 'While times are quiet\, it is easy to take action; ere coming troubles have cast their shadows, it is easy to lay plans.',
 'That which is brittle is easily broken; that which is minute is easily dissipated. Take precautions before the evil appears; regulate things before disorder has begun.',
 'The tree which needs two arms to span its girth sprang from the tiniest shoot. Yon tower\, nine storeys high, rose from a little mound of earth. A journey of a thousand miles began with a single step.',
-'A great principle cannot be divided; therefore it is that many containers cannot contain it.[3]',
+'A great principle cannot be divided; therefore it is that many containers cannot contain it.',
 'The Sage knows what is in him\, but makes no display; he respects himself, but seeks not honour for himself.',
 'To know\, but to be as though not knowing, is the height of wisdom. Not to know, and yet to affect knowledge, is a vice. If we regard this vice as such, we shall escape it. The Sage has not this vice. It is because he regards it as a vice that he escapes it.',
 'Use the light that is in you to revert to your natural clearness of sight. Then the loss of the body is unattended by calamity. This is called doubly enduring.',
@@ -209,6 +209,10 @@ var tao = Array(
 'Things wax strong and then decay. This is the contrary of Tao. What is contrary to Tao soon perishes.'
 )
 
-function myFunction() {
+function taoOut() {
+    document.getElementById("TaoOUT").className = ""
     document.getElementById("TaoOUT").innerHTML = tao[Math.floor(Math.random()*tao.length)];
+    setTimeout(function() {
+                document.getElementById("TaoOUT").classList.add("taofade");
+              }, 100);
 }
