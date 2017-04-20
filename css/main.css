@@ -34,10 +34,6 @@
         0% {opacity: 0;}
         100% {opacity: 1;}
     }
-    @keyframes move {
-        0% {left:0; top:-100px;}
-        100% {left:0; top:500px;}
-    }
     .content {
         color: #FFFFFF;
         font-family: 'League Spartan';
@@ -82,5 +78,5 @@
          text-align: center;
          width: 100%;
          margin: auto;
-         opacity: .3;
+         opacity: .5;
      }
