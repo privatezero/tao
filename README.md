@@ -1,2 +1,2 @@
 # tao
-This is a website that displays quotes from a translation of Lao Tzu
+This is a mini web app using javascript and css to supply Lao Tzu quotes on demand!
